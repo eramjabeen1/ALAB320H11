@@ -1,6 +1,7 @@
 export default function EmployeeListItem() {
-    return (
+  return (
+    <div className="employeeListItem">
       <div>EmployeeListItem</div>
-    )
-  }
-  
+    </div>
+  )
+}

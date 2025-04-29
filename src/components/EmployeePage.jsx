@@ -1,12 +1,12 @@
-import Header from './Header'
+import Header from "./Header";
 
 export default function EmployeePage() {
   return (
-    <div className="">
+    <div className="employeePage">
       <div>EmployeePage</div>
       <Header />
       <div>
-        <h1>Employee Name</h1>
+        <h3>Employee Name</h3>
         <p>Call Office</p>
         <h6>781-000-0002</h6>
         <p>Call Mobile</p>
@@ -15,7 +15,6 @@ export default function EmployeePage() {
         <h6>781-000-0002</h6>
         <p>Email</p>
         <h6>eramjabeen@example.com</h6>
-
       </div>
     </div>
   )

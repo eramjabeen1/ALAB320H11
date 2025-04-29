@@ -1,29 +1,105 @@
+/* App.css */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
-  text-align: center;
+  font-family: 'Fira Code', monospace;
+  background-color: #fffafc;
+  color: #333;
 }
 
-.card {
-  padding: 2em;
+.appLayout {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2rem;
+  flex-wrap: wrap;
+  padding: 1rem;
+}
+
+.homePage {
+  border: 2px solid #ffd6a5;
+  background-color: #fff6e5;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(255, 214, 165, 0.2);
+  flex: 1;
+  min-width: 300px;
+}
+
+.employeePage {
+  border: 2px solid #a0e7e5;
+  background-color: #e0f7f5;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(160, 231, 229, 0.2);
+  flex: 1;
+  min-width: 300px;
+}
+
+.header {
+  border: 2px solid #b5ead7;
+  background-color: #eafff4;
+  margin: 1rem auto;
+  padding: 0.75rem;
+  border-radius: 10px;
+  width: 70%;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #008080;
+  box-shadow: 0 2px 4px rgba(0, 128, 128, 0.1);
+}
+
+.searchBar {
+  border: 2px solid #caffbf;
+  background-color: #f3fff2;
+  margin: 1rem auto;
+  padding: 0.5rem;
+  border-radius: 10px;
+  width: 60%;
+  font-style: italic;
+  color: #2d6a4f;
 }
 
 .employeeList {
-  border: 1px solid purple;
+  border: 2px solid #d4a5ff;
+  background-color: #f8edff;
+  margin: 1rem auto;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(212, 165, 255, 0.2);
 }
-.employeePage {
-  border: 1px solid brown;
-}
+
 .employeeListItem {
-  border: 1px solid fuchsia;
+  margin: 0.5rem auto;
+  padding: 0.75rem;
+  border-radius: 10px;
+  width: 80%;
+  font-weight: bold;
+  text-align: center;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
 }
-.homePage {
-  border: 1px solid orange;
+
+/*  pastel rainbow */
+.employeeListItem:nth-child(1) { background-color: #FFDFEC; }
+.employeeListItem:nth-child(2) { background-color: #FFE6C7; }
+.employeeListItem:nth-child(3) { background-color: #FFF5BA; }
+.employeeListItem:nth-child(4) { background-color: #D5F5C3; }
+.employeeListItem:nth-child(5) { background-color: #D3E4FF; }
+.employeeListItem:nth-child(6) { background-color: #E7D6FF; }
+
+/* Email section styling */
+.employeePage h6 {
+  font-size: 0.85rem;
+  color: #222;
 }
-.header {
-  border: 1px solid blue;
-}
-.searchBar {
-  border: 1px solid green;
+
+.employeePage h3 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 1rem;
 }
