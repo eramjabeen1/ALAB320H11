@@ -103,3 +103,32 @@
   color: #333;
   margin-bottom: 1rem;
 }
+
+.employeeDetailBox {
+  margin: 0.75rem auto;
+  padding: 0.75rem;
+  border-radius: 10px;
+  width: 60%;
+  text-align: center;
+  font-weight: bold;
+  border: 1px solid #ddd;
+  color: #333;
+  font-family: 'Fira Code', monospace;
+}
+
+/* matching pastel classes */
+.pastel-1 {
+  background-color: #FFDFEC; /* rose pink */
+}
+
+.pastel-2 {
+  background-color: #FFF5BA; /* lemon pastel */
+}
+
+.pastel-3 {
+  background-color: #D3E4FF; /* sky blue */
+}
+
+.pastel-4 {
+  background-color: #E7D6FF; /* lavender */
+}
